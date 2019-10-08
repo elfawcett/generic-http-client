@@ -1,0 +1,13 @@
+{
+  "extends": "tslint:recommended",
+  "rules": {
+    "quotemark": false,
+    "object-literal-sort-keys": false,
+    "ordered-imports": false,
+    "member-access": false,
+    "arrow-parens": false
+  },
+  "linterOptions": {
+    "exclude": ["./node_modules/**/*", "./src/webpack.config.ts"]
+  }
+}
